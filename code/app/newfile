@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="93dp"
+        android:src="@drawable/ed"
+        app:strokeWidth="5dp"
+        app:strokeColor="@color/black"
+        app:shapeAppearanceOverlay="@style/circle"
+        tools:ignore="MissingClass"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Student Name: Eshaal hashmi"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/fname"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:text="Father Name: Kazim hashmi"
+        android:textSize="15dp"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/aridno"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:text="Arid No: 20-arid-9822"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/section"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:text="Section: BSIT 6A morning"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/cnic"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:text="CNIC: 00000-0000000-0"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/degree"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:text="Degree: computer science"
+        android:textSize="15dp" />
+</RelativeLayout>
+
+</>
